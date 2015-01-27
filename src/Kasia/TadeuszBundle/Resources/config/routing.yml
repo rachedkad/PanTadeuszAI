@@ -1,0 +1,3 @@
+kasia_tadeusz_homepage:
+    path:     /
+    defaults: { _controller: KasiaTadeuszBundle:Default:index }

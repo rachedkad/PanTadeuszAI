@@ -1,0 +1,5 @@
+kasia_hello_homepage:
+    path:     /hello/{firstname}/{lastname}
+    defaults: 
+        _controller: KasiaHelloBundle:Default:index
+        lastname: ''

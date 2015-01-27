@@ -1,0 +1,8 @@
+kasia_tadeusz:
+    resource: "@KasiaTadeuszBundle/Resources/config/routing.yml"
+    prefix:   /PanTadeusz
+
+kasia_hello:
+    resource: "@KasiaHelloBundle/Resources/config/routing.yml"
+    prefix:   /hw
+

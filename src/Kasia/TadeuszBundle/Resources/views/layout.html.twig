@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Pan Tadeusz</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="{{ asset('bundles/kasiatadeusz/css/bootstrap.css')}}">
+	</head>
+	<body>
+		<div class="container">
+			<header class="row">
+				{% block header %}
+					<p>Header conent</p>
+				{% endblock %}
+			</header>
+			<div class="row">
+				<div class="col-md-4">
+					{% block menu %}
+						<p>Menu conent</p>
+					{% endblock %}
+				</div>
+				<div class="col-md-8">
+					{% block contnt %}
+						<p>Content conent</p>
+					{% endblock %}
+				</div>
+			</div>
+			<footer class="row">
+				<p>Copyright Katarzyna Wójcik</p>
+			</footer>
+		</div>
+	</body>
+</html>
