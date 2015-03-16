@@ -1,0 +1,4 @@
+services:
+#    movie_rent.example:
+#        class: MovieRentalBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

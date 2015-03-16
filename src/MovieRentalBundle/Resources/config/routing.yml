@@ -1,0 +1,63 @@
+movie_rent_main:
+    path:     /main
+    defaults: { _controller: MovieRentalBundle:Default:main }
+movie_rent_logout:
+    path:     /logout
+    defaults: { _controller: MovieRentalBundle:Default:logout }
+movie_rent_review:
+    path:     /review
+    defaults: { _controller: MovieRentalBundle:Default:review }
+movie_rent_borrow:
+    path:     /borrow
+    defaults: { _controller: MovieRentalBundle:Default:borrow }
+movie_rent_borrowed:
+    path:     /borrowed
+    defaults: { _controller: MovieRentalBundle:Default:borrowed }
+movie_rent_watch:
+    path:     /watch
+    defaults: { _controller: MovieRentalBundle:Default:watch }
+movie_rent_orders:
+    path:     /orders
+    defaults: { _controller: MovieRentalBundle:Default:orders }
+movie_rent_register:
+    path:     /registration
+    defaults: { _controller: MovieRentalBundle:Default:registration }
+rent_movie_sinister:
+    path:     /3
+    defaults: { _controller: MovieRentalBundle:Default:sinister }
+movie_rent_conjuring:
+    path:     /7
+    defaults: { _controller: MovieRentalBundle:Default:conjuring }
+movie_rent_hobbitOne:
+    path:     /11
+    defaults: { _controller: MovieRentalBundle:Default:hobbitOne }
+movie_rent_hobbitTwo:
+    path:     /12
+    defaults: { _controller: MovieRentalBundle:Default:hobbitTwo }
+movie_rent_melodramaGenre:
+    path:     /melodramaGenre
+    defaults: { _controller: MovieRentalBundle:Default:melodrama}
+movie_rent_comedyGenre:
+    path:     /comedyGenre
+    defaults: { _controller: MovieRentalBundle:Default:comedy}
+movie_rent_dramaGenre:
+    path:     /dramaGenre
+    defaults: { _controller: MovieRentalBundle:Default:drama}
+movie_rent_horrorGenre:
+    path:     /horrorGenre
+    defaults: { _controller: MovieRentalBundle:Default:horror}
+movie_rent_fantasyGenre:
+    path:     /fantasyGenre
+    defaults: { _controller: MovieRentalBundle:Default:fantasy}
+movie_rent_scienceGenre:
+    path:     /scienceGenre
+    defaults: { _controller: MovieRentalBundle:Default:science}
+movie_rent_cartoonGenre:
+    path:     /cartoonGenre
+    defaults: { _controller: MovieRentalBundle:Default:cartoon}
+movie_rent_form:
+    path:     /form
+    defaults: { _controller: MovieRentalBundle:Default:form}
+movie_rent_mail:
+    path:     /mail
+    defaults: { _controller: MovieRentalBundle:Default:mail}

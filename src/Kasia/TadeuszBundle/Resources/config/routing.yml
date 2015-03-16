@@ -1,3 +1,19 @@
 kasia_tadeusz_homepage:
     path:     /
     defaults: { _controller: KasiaTadeuszBundle:Default:index }
+
+kasia_tadeusz_books:
+    path:     /book/{number}
+    defaults: { _controller: KasiaTadeuszBundle:Default:books }
+
+kasia_tadeusz_reflections_add:
+    path:     /book/{number}
+    defaults: { _controller: KasiaTadeuszBundle:reflections:add }
+
+kasia_tadeusz_reflections_index:
+    path:     /book/{number}
+    defaults: { _controller: KasiaTadeuszBundle:Default:index }
+
+kasia_tadeusz_reflections_show:
+    path:     /book/{number}
+    defaults: { _controller: KasiaTadeuszBundle:Default:show }
